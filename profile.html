@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html data-enhance="false" lang="en" xmlns="https://www.w3.org/1999/html" id="helloHjmo">
+<head data-enhance="false"><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
+	<!-- Latest compiled and minified CSS -->
+<link rel='shortcut icon' type='image/png' href='https://dhondi.ai/logos/cmr.png' />
+
+<link type="text/css" rel="stylesheet" href="https://app.dhondi.ai/themes/gama/assets/css/style.css?v=1739707172" data-no-instant>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "j24qkr5h00");
+</script>
+
+<link type="text/css" href="https://app.dhondi.ai/themes/gama/assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+<link type="text/css" href="https://app.dhondi.ai/themes/gama/assets/css/select2.min.css" rel="stylesheet" />
+<link type="text/css" href="https://app.dhondi.ai/themes/gama/assets/css/accordion.css" rel="stylesheet" />
+<link type="text/css" href="https://app.dhondi.ai/themes/gama/assets/css/microtip.css" rel="stylesheet" />
+<link type="text/css" href="https://app.dhondi.ai/themes/gama/assets/css/jquery.datetimepicker.css" rel="stylesheet" />
+<link type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+<link type="text/css" href="https://app.dhondi.ai/themes/gama/assets/css/main.css" rel="stylesheet" />
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.min.css" integrity="sha512-za6IYQz7tR0pzniM/EAkgjV1gf1kWMlVJHBHavKIvsNoUMKWU99ZHzvL6lIobjiE2yKDAKMDSSmcMAxoiWgoWA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://kit.fontawesome.com/afeb62b1ca.js" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script type="application/x-javascript" src="https://app.dhondi.ai/themes/gama/assets/js/library/jquery-1.11.min.js" ></script>
+  <script type="application/x-javascript" src="https://app.dhondi.ai/themes/gama/assets/js/jquery.datetimepicker.js"></script>
+  <script type="application/x-javascript" src="https://app.dhondi.ai/themes/gama/assets/js/main.js"></script>
+  <script type="application/x-javascript" src="https://app.dhondi.ai/themes/gama/assets/js/jquery.easing.min.js"  data-no-instant></script>
+  <script type="application/x-javascript" src="https://engineershub.in/themes/ehthree/assets/js/library/jqueryui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.min.js" integrity="sha512-EC3CQ+2OkM+ZKsM1dbFAB6OGEPKRxi6EDRnZW9ys8LghQRAq6cXPUgXCCujmDrXdodGXX9bqaaCRtwj4h4wgSQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+  <script src="https://cdn.plyr.io/3.6.8/plyr.polyfilled.js"></script>
+  <link rel="stylesheet" href="https://dhondi-assets.b-cdn.net/css/datepicker.minimal.css">
+
+    <!-- Include the Datepicker.js JavaScript -->
+    <script src="https://dhondi-assets.b-cdn.net/js/datepicker.js"></script>
+
+<script>function gama_zone(){return '/helper.php';}</script>
+<script type="application/x-javascript" src="https://app.dhondi.ai/themes/gama/assets/ckeditor/ckeditor.js"></script>
+
+<title>Profile - CMR Institute of Technology - DHONDI</title>
+
+<div class="headerOne">
+    <div class="mobileHamburger">
+        <div onclick="openMenuBarMobile()" class="mobileHamburgerIcon">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    </div>
+   
+        <div class="logoHolder">
+            <a href="https://app.dhondi.ai">
+            <div class="logoHolderImage">
+                <img src="https://dhondi.ai/logos/cmr.png"/>
+            </div>
+            <div class="logoHolderText">
+                CMRIT            </div> 
+            </a>
+            <div class="logoHolderTextOne">
+                Student            </div>
+        </div>
+   
+    <div class="rightSideMenu">
+        <div class="rightMenuItem headerClock" id="clock">
+            
+        </div>
+    </div>
+
+</div>
+
+
+<script>
+$(document).ready(function(){
+    setInterval(showTime, 1000);
+});
+    
+</script>
+
+
+
+<div class="leftSideBarContainer">
+    <div class="leftSideBarLeftMain">
+        <div class="leftSideBarLeftMainTop">
+            <a href="home.html">
+                <div class="leftSideBarIconItem ">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <p class="sideBarTitleMenu">Home</p>
+
+                </div>
+            </a>
+            <a href="https://app.dhondi.ai/feed">
+                <div class="leftSideBarIconItem ">
+                    <i class="fa fa-commenting" aria-hidden="true"></i>
+                    <p class="sideBarTitleMenu">Feed</p>
+                </div>
+            </a>
+            <a href="https://app.dhondi.ai/academics">
+                <div class="leftSideBarIconItem ">
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    <p class="sideBarTitleMenu">Academics</p>
+                </div>
+            </a>
+            <a href="https://app.dhondi.ai/student-examinations">
+                <div class="leftSideBarIconItem ">
+                    <i class="fa fa-pencil-square" aria-hidden="true"></i>
+                    <p class="sideBarTitleMenu">Exams</p>
+                </div>
+            </a>
+            <a href="https://app.dhondi.ai/applications">
+                <div class="leftSideBarIconItem ">
+                    <i class="fa fa-file-text" aria-hidden="true"></i>
+                    <p class="sideBarTitleMenu">Applications</p>
+                </div>
+            </a>
+            <a href="https://app.dhondi.ai/payments">
+                <div class="leftSideBarIconItem ">
+                    <i class="fa fa-credit-card" aria-hidden="true"></i>
+                    <p class="sideBarTitleMenu">Payments</p>
+                </div>
+            </a>
+            <a href="https://app.dhondi.ai/calendar">
+                <div class="leftSideBarIconItem ">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                    <p class="sideBarTitleMenu">Calendar</p>
+                </div>
+            </a>
+            <a href="https://app.dhondi.ai/library">
+                <div class="leftSideBarIconItem ">
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                    <p class="sideBarTitleMenu">Library</p>
+                </div>
+            </a>
+            <a href="https://app.dhondi.ai/feedbacks">
+                <div class="leftSideBarIconItem ">
+                    <i class="fa fa-comment-o" aria-hidden="true"></i>
+                    <p class="sideBarTitleMenu">Feedback</p>
+                </div>
+            </a>
+            <a href="https://code.dhondi.ai" target="_blank">
+                <div class="leftSideBarIconItem">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <p class="sideBarTitleMenu">Lab</p>
+                </div>
+            </a>
+            <a href="https://app.dhondi.ai/change-password">
+                <div class="leftSideBarIconItem ">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <p class="sideBarTitleMenu">Change Password</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="leftSideBarLeftMainBottom">
+            <hr/>
+            <!-- <a href="">
+                <div class="leftSideBarIconItem ">
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                </div>
+            </a>
+            <a onclick="logout('');">
+                <div class="leftSideBarIconItem ">
+                    <i class="fa fa-power-off" aria-hidden="true"></i>
+                </div>
+            </a> -->
+            <a href="https://app.dhondi.ai/profile">
+                <div class="leftSideBarIconItem isActive">
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                    <p class="sideBarTitleMenu">Profile</p>
+                </div>
+            </a>
+            <a onclick="logout('6F44544952425466526748314D33497038363575705738533743546F5A7547454F785971754B42733252493D');">
+                <div class="leftSideBarIconItem ">
+                    <i class="fa fa-power-off" aria-hidden="true"></i>
+                    <p class="sideBarTitleMenu">Logout</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    
+</div>
+
+<script data-no-instant>
+  function initFreshChat() {
+    window.fcWidget.init({
+      token: "4daa3217-9c40-4405-b0f3-2d7b4638f32c",
+      host: "https://wchat.in.freshchat.com",
+      externalId: "5993336210 - CMR Institute of Technology - Student",     // user’s id unique to your system
+        firstName: "Suchith",              // user’s first name
+        lastName: "Veldandi",                // user’s last name
+        email: "22r01a67c5@cmrithyderabad.edu.in",    // user’s email address
+        phone: "8309434926",            // phone number without country code
+        phoneCountryCode: "+91",
+        "institution": "CMR Institute of Technology"
+    });
+  }
+
+  function initialize(i,t)
+    {
+        var e;
+        i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,
+        e.src="https://wchat.in.freshchat.com/js/widget.js",
+        e.onload=initFreshChat,
+        i.head.appendChild(e))
+    }
+    
+    function initiateCall(){
+        initialize(document,"Freshchat-js-sdk")
+    }
+
+    window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+
+</script>
+<div class="breadCrumbHeader">
+    <div class="breadCrumbHeaderHolder">
+        <a href="https://app.dhondi.ai">
+            <div class="breadCrumbTitleItem">
+                Home
+            </div>
+        </a>>
+        <a href="https://app.dhondi.ai/profile">
+            <div class="breadCrumbTitleItem">
+                Profile
+            </div>
+        </a>
+    </div>
+</div>
+
+
+<div class="actualAfterLoginMainContainer actualAfterLoginMainContainerProfile">
+    <div class="actualContentContainer actualContentContainerProfile">
+        <div class="profileHolderCover">
+            <div class="profileHolderCoverWelcome">
+                Hello
+            </div>
+            <div class="profileHolderCoverProfilePicHolder">
+                <img src="22R01A67C5.jpg"/>
+            </div>
+        </div>
+        <div class="pageTitle pageTitleProfile">
+           Suchith Veldandi<br/>
+           <span class="smallProfileHtno">22R01A67C5</span> | 
+           <span class="smallProfileHtno">DOB: Tue 31, Aug 2004</span>
+           <div class="">
+                <!-- <a class="blueBackGroundButton" href="https://app.dhondi.ai/update-general-profile">General Profile</a> -->
+                <a class="blueBackGroundButton" href="https://app.dhondi.ai/update-academic-profile">Academic Profile</a>
+                <a class="blueBackGroundButton" href="https://app.dhondi.ai/upload-documents">Upload Documents</a>
+                <a class="blueBackGroundButton" href="https://app.dhondi.ai/qualifications">Qualifications</a>
+                <a class="blueBackGroundButton" href="https://app.dhondi.ai/update-student-bank-details">Bank Details</a>
+            </div>
+            <form onsubmit="return false;" id="getStudentAttendanceForBatchYearTerm">
+                
+                <label class="profileTermHolderLabel">Terms</label>
+                <select class="thisFormSelect termSelectorOnViewProfile" onchange="getStudentAttendanceForBatchYearTermOnProfile('6F44544952425466526748314D33497038363575705738533743546F5A7547454F785971754B42733252493D'); getStudentMidExamsForBatchYearTermOnProfile('6F44544952425466526748314D33497038363575705738533743546F5A7547454F785971754B42733252493D'); getStudentMainExamsForBatchYearTermOnProfile('6F44544952425466526748314D33497038363575705738533743546F5A7547454F785971754B42733252493D');" id="batchYearTerm" name="batchYearTerm">
+                                        <option 
+                                        value="0a853ec502b23ad68cb77a0b8b2dc0f3">I Year I Semester</option>
+                                        <option 
+                                        value="5491dcd87c343ddbf74089c962b09cd5">I Year II Semester</option>
+                                        <option 
+                                        value="10ba06bd9ed80475ac1540ad7474cb98">II Year I Semester</option>
+                                        <option 
+                                        value="32b429965d178cd2fbe751aeeea87a32">II Year II Semester</option>
+                                        <option 
+                                        value="da2c321c0badc341a969ff561cd624f5">III Year I Semester</option>
+                                        <option 
+                    selected                    value="dc3ea4e9d73d1a38d1508e9eefc11fea">III Year II Semester</option>
+                                    </select>
+                <span class="examTypeFeedBack inputFeedback"></span>
+                 
+            </form>
+        </div>
+
+        <div class="mainProfileContainer">
+            <div class="mainProfileContainerLeft">
+
+            <div class="mainProfileContainerBlock">
+                    <div class="mainProfileContainerBlockTitle">
+                        Parent Details
+                         <hr/>
+                    </div>
+                    <div class="mainProfileContainerBlockContent">
+                                                    <div class="mainProfileContainerBlockContentItem">
+                                <div class="mainProfileContainerBlockContentItemTitle">
+                                    Parent 1                                </div>
+                                <div class="mainProfileContainerBlockContentItemContent">
+                                    MADHUSUDHAN VELDANDI - FATHER - 9951441486 (MOB) -                                 </div>
+                            </div>
+                                                </div>
+                </div>
+
+
+            <div class="mainProfileContainerBlock">
+                    <div class="mainProfileContainerBlockTitle">
+                        Academic Details
+                         <hr/>
+                    </div>
+                    <div class="mainProfileContainerBlockContent">
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Batch
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                B.TECH R22 [2022-2026]                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Roll Number
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                22R01A67C5                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Year
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                3 Year                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Current Term
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                III Year II Semester                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Section
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                CSD[2022-2026] - B                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Room
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                G30                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mainProfileContainerBlock">
+                    <div class="mainProfileContainerBlockTitle">
+                        Personal Details
+                         <hr/>
+                    </div>
+                    <div class="mainProfileContainerBlockContent">
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Fullname as per X
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                VELDANDI SUCHITH                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Gender
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                MALE                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Fathername as per X
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                VELDANDI MADHUSUDHAN                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Mothername as per X
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                VELDANDI ANURADHA                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Aadhar Number
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                754111501622                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Nationality
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                INDIAN                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Religion
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                HINDU                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Caste
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                BC-B                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Father Occupation
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                PRIVATE EMPLOYEE                             </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Mother Tongue
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                TELUGU                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mainProfileContainerBlock">
+                    <div class="mainProfileContainerBlockTitle">
+                        Income Details
+                         <hr/>
+                    </div>
+                    <div class="mainProfileContainerBlockContent">
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Parent Income
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                120000                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mainProfileContainerBlock">
+                    <div class="mainProfileContainerBlockTitle">
+                        Identification Marks
+                         <hr/>
+                    </div>
+                    <div class="mainProfileContainerBlockContent">
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Identification Mark One
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                A MOLE ON THE LEFT HAND                             </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Identification Mark Two
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                A MOLE ON THE RIGHT HAND                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mainProfileContainerBlock">
+                    <div class="mainProfileContainerBlockTitle">
+                        Present Address
+                         <hr/>
+                    </div>
+                    <div class="mainProfileContainerBlockContent">
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Door/House/Flat Number
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                H.No.7-2-1087/A/150                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Street
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                RAJARAJESHWARI NAGAR COLONY, UDAYNAGAR COLONY, SANATH NAGAR                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Village/Town/City
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                HYDERABAD                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Mandal
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                AMEERPET                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                District
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                HYDERABAD                             </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                State
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                TELANGANA                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Pincode
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                500018                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mainProfileContainerBlock">
+                    <div class="mainProfileContainerBlockTitle">
+                        Permanent Address
+                         <hr/>
+                    </div>
+                    <div class="mainProfileContainerBlockContent">
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Door/House/Flat Number
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                12-123                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Street
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                SARCHER VALLABA NAGAR  RAMAKRISHNAPUR  B-ZONE                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Village/Town/City
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                RAMAKRISHNAPUR                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Mandal
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                MANDAMARRI                             </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                District
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                MANCHERIAL                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                State
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                TELANGANA                            </div>
+                        </div>
+                        <div class="mainProfileContainerBlockContentItem">
+                            <div class="mainProfileContainerBlockContentItemTitle">
+                                Pincode
+                            </div>
+                            <div class="mainProfileContainerBlockContentItemContent">
+                                504301                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainProfileContainerRight">
+                <div id="loadProfileAttendance">
+                <div class="mainProfileContainerBlockRight">
+                    <div class="mainProfileContainerBlockTitle">
+                        Attendance for III Year II Semester                         <hr/>
+                    </div>
+                    <div style="padding: 0px 19px 19px 20px;">
+                    <li>The displayed attendance is for reference only and may be subject to technical errors.</li>
+                    <li>For accurate records, please contact respective department</li>
+                    </div>
+                                        <div class="mainProfileContainerBlockContent">
+                    <div class="mainProfileContainerBlockContentItem">
+                        <div class="mainProfileContainerBlockContentItemTitle">
+                            Subject Wise Attendance
+                        </div>
+                        <div class="mainProfileContainerBlockContentItemContent">
+                        <table class="mainProfileContainerTableContent">
+                            <thead>
+                                <tr>
+                                    <th>Sl No</th>
+                                    <th>Subject</th>
+                                    <th>Type</th>
+                                    <th>Total Classes</th>
+                                    <th>Attended</th>
+                                    <th>Absent</th>
+                                    <th>Percentage</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                                                <tr>
+                                    <td>1</td>
+                                    <td>INDUSTRY ORIENTED MINI PROJECT</td>
+                                    <td>Lab</td>
+                                    <td>23</td>
+                                    <td>20</td>
+                                    <td>3</td>
+                                    <td>86.96 %</td>
+                                </tr>
+                                                                <tr>
+                                    <td>2</td>
+                                    <td>DATA SCIENCE AND BIG DATA ANALYTICS LAB</td>
+                                    <td>Lab</td>
+                                    <td>12</td>
+                                    <td>11</td>
+                                    <td>1</td>
+                                    <td>91.67 %</td>
+                                </tr>
+                                                                <tr>
+                                    <td>3</td>
+                                    <td>WEB AND SOCIAL MEDIA ANALYTICS LAB</td>
+                                    <td>Lab</td>
+                                    <td>10</td>
+                                    <td>10</td>
+                                    <td>0</td>
+                                    <td>100 %</td>
+                                </tr>
+                                                                <tr>
+                                    <td>4</td>
+                                    <td>DEVOPS LAB</td>
+                                    <td>Lab</td>
+                                    <td>12</td>
+                                    <td>10</td>
+                                    <td>2</td>
+                                    <td>83.33 %</td>
+                                </tr>
+                                                                <tr>
+                                    <td>5</td>
+                                    <td>ENTREPRENEURSHIP AND IPR</td>
+                                    <td>Theory</td>
+                                    <td>36</td>
+                                    <td>32</td>
+                                    <td>4</td>
+                                    <td>88.89 %</td>
+                                </tr>
+                                                                <tr>
+                                    <td>6</td>
+                                    <td>DATA SCIENCE AND BIG DATA ANALYTICS</td>
+                                    <td>Theory</td>
+                                    <td>38</td>
+                                    <td>31</td>
+                                    <td>7</td>
+                                    <td>81.58 %</td>
+                                </tr>
+                                                                <tr>
+                                    <td>7</td>
+                                    <td>WEB AND SOCIAL MEDIA ANALYTICS</td>
+                                    <td>Theory</td>
+                                    <td>32</td>
+                                    <td>28</td>
+                                    <td>4</td>
+                                    <td>87.5 %</td>
+                                </tr>
+                                                                <tr>
+                                    <td>8</td>
+                                    <td>DEVOPS</td>
+                                    <td>Theory</td>
+                                    <td>37</td>
+                                    <td>32</td>
+                                    <td>5</td>
+                                    <td>86.49 %</td>
+                                </tr>
+                                                                <tr>
+                                    <td>9</td>
+                                    <td>E-COMMERCE</td>
+                                    <td>Theory</td>
+                                    <td>32</td>
+                                    <td>27</td>
+                                    <td>5</td>
+                                    <td>84.38 %</td>
+                                </tr>
+                                                                <tr>
+                                    <td>10</td>
+                                    <td>IOT AND CLOUD COMPUTING</td>
+                                    <td>Theory</td>
+                                    <td>36</td>
+                                    <td>30</td>
+                                    <td>6</td>
+                                    <td>83.33 %</td>
+                                </tr>
+                                                            </tbody>
+                        </table>
+                        </div>
+                        </div>
+
+                        <div class="mainProfileContainerBlockContentItem">
+                        <div class="mainProfileContainerBlockContentItemTitle">
+                            Cumulative Attendance
+                        </div>
+                        <div class="mainProfileContainerBlockContentItemContent">
+                        <table class="mainProfileContainerTableContent">
+                            <thead>
+                                <tr>
+                                    <th>Total Classes</th>
+                                    <th>Attended</th>
+                                    <th>Absent</th>
+                                    <th>Percentage</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                                                <tr>
+                                    <td>268</td>
+                                    <td>231</td>
+                                    <td>37</td>
+                                    <td>86.19 %</td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+                <div id="loadProfileMidExams">
+                <div class="mainProfileContainerBlockRight">
+                    <div class="mainProfileContainerBlockTitle">
+                        Mid Exams for III Year II Semester                         <hr/>
+                    </div>
+                    <div class="mainProfileContainerBlockContent">
+                    <div class="mainProfileContainerBlockContentItem">
+                    <div class="mainProfileContainerBlockContentItemContent">
+                        <table class="mainProfileContainerTableContent">
+                            <thead>
+                                <tr>
+                                    <th>Sl No</th>
+                                    <th>Subject Code</th>
+                                    <th>Subject Name</th>
+                                    <th>Mid I</th>
+                                    <th>Assign. I</th>
+                                    <th>Mid II</th>
+                                    <th>Assign. II</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                                                <tr>
+                                    <td>1</td>
+                                    <td>22CDPR61</td>
+                                    <td>INDUSTRY ORIENTED MINI PROJECT</td>
+                                    <td>0/40</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                                                <tr>
+                                    <td>2</td>
+                                    <td>22CDPC64</td>
+                                    <td>DATA SCIENCE AND BIG DATA ANALYTICS LAB</td>
+                                    <td>0/40</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                                                <tr>
+                                    <td>3</td>
+                                    <td>22CDPC65</td>
+                                    <td>WEB AND SOCIAL MEDIA ANALYTICS LAB</td>
+                                    <td>0/40</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                                                <tr>
+                                    <td>4</td>
+                                    <td>22CDPC66</td>
+                                    <td>DEVOPS LAB</td>
+                                    <td>0/40</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                                                <tr>
+                                    <td>5</td>
+                                    <td>22MC61</td>
+                                    <td>ENTREPRENEURSHIP AND IPR</td>
+                                    <td>0/30</td>
+                                    <td>0/5</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                                                <tr>
+                                    <td>6</td>
+                                    <td>22CDPC61</td>
+                                    <td>DATA SCIENCE AND BIG DATA ANALYTICS</td>
+                                    <td>13/30</td>
+                                    <td>5/5</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                                                <tr>
+                                    <td>7</td>
+                                    <td>22CDPC62</td>
+                                    <td>WEB AND SOCIAL MEDIA ANALYTICS</td>
+                                    <td>7/30</td>
+                                    <td>4.5/5</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                                                <tr>
+                                    <td>8</td>
+                                    <td>22CDPC63</td>
+                                    <td>DEVOPS</td>
+                                    <td>15/30</td>
+                                    <td>5/5</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                                                <tr>
+                                    <td>9</td>
+                                    <td>22OE61</td>
+                                    <td>E-COMMERCE</td>
+                                    <td>19/30</td>
+                                    <td>5/5</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                                                <tr>
+                                    <td>10</td>
+                                    <td>22CDPE61</td>
+                                    <td>IOT AND CLOUD COMPUTING</td>
+                                    <td>16.5/30</td>
+                                    <td>5/5</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                                            </tbody>
+                        </table>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div id="loadProfileMainExams">
+                                </div>
+
+
+                <div id="loadProfileMainExams">
+                                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="footerbar">
+    Powered By &nbsp;<a href="https://dhondi.ai" target="_blank"><img src="https://app.dhondi.ai/themes/gama/images/logo.png" alt="Dhondi Logo"/></a>
+    
+<!-- <span style="background: #730000;
+ 
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    text-transform:uppercase;">
+    <marquee behavior="scroll" style="text-transform:uppercase;" direction="left">DHONDI will undergo a planned major maintenance - Phase I and you will not be able to access our services from 28th September 2024 08:00 PM (Saturday Night) to 30th September 2024 05:00 AM (Monday Early Morning).</marquee></span> -->
+
+</div>
+<div class="gamaMainLoader">
+<div class="center"><img src="htr/themes/gama/images/loading.gif"/></div>
+</div>
+<div class="gamaMainLoaderReport">
+<div class="center"><img src="https://a/themes/gama/images/loading.gif"/>
+<div class="loaderGamaText">Generating Report....will take longer time...sit back and relax...</div>
+</div>
+</div>
+<div class="gamaMainAjaxResult">
+</div>
+<div class="gamaMainAjaxResultTop" id="warningIdle">
+  
+</div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TN8VHQWHS4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TN8VHQWHS4');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179513915-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179513915-1');
+</script>
+</div>
+
+</body>
+
+<link href="https://cdn.datatables.net/v/dt/jq-3.7.0/jszip-3.10.1/dt-2.1.6/af-2.7.0/b-3.1.2/b-colvis-3.1.2/b-html5-3.1.2/b-print-3.1.2/cr-2.0.4/date-1.5.3/fc-5.0.1/fh-4.0.1/kt-2.12.1/r-3.0.3/rg-1.5.0/rr-1.5.0/sc-2.4.3/sb-1.8.0/sp-2.3.2/sl-2.1.0/sr-1.4.1/datatables.min.css" rel="stylesheet">
+ 
+
+
+<script type="application/x-javascript" src="https://app.dhondi.ai/themes/gama/assets/js/core.js?v=1743755890" data-no-instant data-instant-track></script>
+<script type="application/x-javascript" src="https://app.dhondi.ai/themes/gama/assets/js/validation.js?v=1742192835" data-no-instant data-instant-track></script>
+<script type="application/x-javascript" src="https://app.dhondi.ai/themes/gama/assets/js/crypto-js.min.js" data-no-instant data-instant-track></script>
+<script type="application/x-javascript" src="https://app.dhondi.ai/themes/gama/assets/js/accordion.js" data-no-instant data-instant-track></script>
+<script type="application/x-javascript" src="https://app.dhondi.ai/themes/gama/assets/js/select2.min.js" data-no-instant data-instant-track></script>
+
+
+<script type="application/x-javascript" src="https://app.dhondi.ai/themes/gama/assets/js/fontAwesome.min.js"></script>
+
+<!-- Panelbear -->
+<script async src="https://cdn.panelbear.com/analytics.js?site=DUtb5UhYNB2"></script>
+<script>
+    window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
+    panelbear('config', { site: 'DUtb5UhYNB2' });
+</script>
+
+
+
